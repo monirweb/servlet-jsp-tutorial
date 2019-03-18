@@ -26,12 +26,12 @@ public class LargeServlet extends HttpServlet {
         out.println("<html>");
         out.println("<head>");
         out.println("<title>");
-        out.println("Large Servlet request");
+        out.println("Large Servlet Page");
         out.println("</title>");
         out.println("</head>");
         out.println("<body>");
         out.println("<h3>");
-        out.println("Showing Large Servlet request");
+        out.println("Showing Large Servlet Page");
         out.println("</h3>");
 
         for (int i=0;i<2000;i++){
